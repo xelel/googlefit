@@ -6,7 +6,7 @@ import time
 import json
 import requests
 from random import randint
-accessToken = 'ya29.A0AfH6SMDsI5BTj_u4-DZ_lsZR6dE0lh6-dZLjwG5MVulECHeD6K1SyZvlmRUk9gC_LWyGfWdwrfGXNcZL2rK7tM7sz6vH_LaFEnHbkA7ZDDrHyCC7iCBqbaER2qYCDCJb_lnVRcxebtj4OCBUCxF3mz2o1rgvcwoNvQfGAHfbsog'
+accessToken = ''
 # recebe uma data,converte pra nanosegundos, e uma representação para datapoints
 
 
