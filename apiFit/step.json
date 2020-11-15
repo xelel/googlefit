@@ -1,0 +1,1 @@
+{"dataStreamName": "StepDataSource", "type": "derived", "application": {"name": "StepCountEsteira", "version": "1"}, "dataType": {"field": [{"name": "steps", "format": "integer"}], "name": "com.google.step_count.delta"}, "device": {"manufacturer": "Esteira", "model": "RESTAPI", "type": "watch", "uid": "432", "version": "1"}}

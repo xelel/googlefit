@@ -1,0 +1,1521 @@
+{
+  "dataSource": [
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+      "dataStreamName": "from_activity\u003c-merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_steps\u003c-estimated_steps",
+      "dataStreamName": "from_steps\u003c-estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:merge_active_minutes",
+      "dataStreamName": "merge_active_minutes",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "dataStreamName": "merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SM-G965W:9d2943f4:activity_from_steps",
+      "dataStreamName": "activity_from_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "9d2943f4",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G965W",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SM-G965W:9d2943f4:from_activity_samples\u003c-derived:com.google.activity.samples:com.google.android.gms:samsung:SM-G965W:9d2943f4:detailed",
+      "dataStreamName": "from_activity_samples\u003c-derived:com.google.activity.samples:com.google.android.gms:samsung:SM-G965W:9d2943f4:detailed",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "9d2943f4",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G965W",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.bmr:com.google.android.gms:from_height&weight",
+      "dataStreamName": "from_height&weight",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.bmr",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.bmr:com.google.android.gms:merged",
+      "dataStreamName": "merged",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.bmr",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:from_activities",
+      "dataStreamName": "from_activities",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+      "dataStreamName": "merge_calories_expended",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:platform_calories_expended",
+      "dataStreamName": "platform_calories_expended",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:407408718192:Apple:RESTAPI:0000001:AppleDistanceDataSource",
+      "dataStreamName": "AppleDistanceDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0000001",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:407408718192:Apple:RESTAPI:237:AppleDistanceDataSource",
+      "dataStreamName": "AppleDistanceDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "237",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:407408718192:Apple:RESTAPI:262:AppleDistanceDataSource",
+      "dataStreamName": "AppleDistanceDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "262",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:407408718192:Apple:RESTAPI:546:AppleDistanceDataSource",
+      "dataStreamName": "AppleDistanceDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "546",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:407408718192:Apple:RESTAPI:64:AppleDistanceDataSource",
+      "dataStreamName": "AppleDistanceDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "64",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_steps\u003c-merge_step_deltas",
+      "dataStreamName": "from_steps\u003c-merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:merge_distance_delta",
+      "dataStreamName": "merge_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:pruned_distance",
+      "dataStreamName": "pruned_distance",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:platform_distance_delta",
+      "dataStreamName": "platform_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+      "dataStreamName": "from_activity\u003c-merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_steps\u003c-estimated_steps",
+      "dataStreamName": "from_steps\u003c-estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes",
+      "dataStreamName": "merge_heart_minutes",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.height:407408718192:Apple:RESTAPI:71:AppleHeightDataSource",
+      "dataStreamName": "AppleHeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "71",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.height:407408718192:Apple:RESTAPI:876:AppleHeightDataSource",
+      "dataStreamName": "AppleHeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "876",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.height:com.google.android.gms:merge_height",
+      "dataStreamName": "merge_height",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:from_distance\u003c-merge_distance_delta",
+      "dataStreamName": "from_distance\u003c-merge_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.speed",
+        "field": [
+          {
+            "name": "speed",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:merge_speed",
+      "dataStreamName": "merge_speed",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.speed",
+        "field": [
+          {
+            "name": "speed",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0000001:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0000001",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0000011:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0000011",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0000111:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0000111",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0100000:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0100000",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0100001:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0100001",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:0100111:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "0100111",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1010001:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1010001",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1010011:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1010011",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1110001:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1110001",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1111001:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1111001",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1111101:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1111101",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:1111111:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1111111",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:254:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "254",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:259:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "259",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:309:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "309",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:351:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "351",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:375:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "375",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:451:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "451",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:678:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "678",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:688:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "688",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:832:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "832",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:873:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "873",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:921:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "921",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Esteira:RESTAPI:934:StepDataSource",
+      "dataStreamName": "StepDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "934",
+        "type": "watch",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Esteira"
+      },
+      "application": {
+        "version": "1",
+        "name": "StepCountEsteira"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+      "dataStreamName": "estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:merge_step_deltas",
+      "dataStreamName": "merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SM-G965W:9d2943f4:derive_step_deltas\u003c-raw:com.google.step_count.cumulative:samsung:SM-G965W:9d2943f4:step_counter  Non-wakeup",
+      "dataStreamName": "derive_step_deltas\u003c-raw:com.google.step_count.cumulative:samsung:SM-G965W:9d2943f4:step_counter  Non-wakeup",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "9d2943f4",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G965W",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Apple:RESTAPI:11:AppleWeightDataSource",
+      "dataStreamName": "AppleWeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "11",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Apple:RESTAPI:147:AppleWeightDataSource",
+      "dataStreamName": "AppleWeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "147",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Apple:RESTAPI:171:AppleWeightDataSource",
+      "dataStreamName": "AppleWeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "171",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Apple:RESTAPI:951:AppleWeightDataSource",
+      "dataStreamName": "AppleWeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "951",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Apple"
+      },
+      "application": {
+        "version": "1",
+        "name": "AppleHealth2GoogleFit"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Marcell:RESTAPI:1101000:WeightDataSource",
+      "dataStreamName": "WeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1101000",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Marcell"
+      },
+      "application": {
+        "version": "1",
+        "name": "Peso Usuário"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Marcell:RESTAPI:1101001:WeightDataSource",
+      "dataStreamName": "WeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1101001",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Marcell"
+      },
+      "application": {
+        "version": "1",
+        "name": "Peso Usuário"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:407408718192:Marcell:RESTAPI:1101010:WeightDataSource",
+      "dataStreamName": "WeightDataSource",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "1101010",
+        "type": "tablet",
+        "version": "1",
+        "model": "RESTAPI",
+        "manufacturer": "Marcell"
+      },
+      "application": {
+        "version": "1",
+        "name": "Peso Usuário"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:com.google.android.gms:merge_weight",
+      "dataStreamName": "merge_weight",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.height:com.google.android.apps.fitness:user_input",
+      "dataStreamName": "user_input",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SM-G965W:9d2943f4:step_counter  Non-wakeup",
+      "dataStreamName": "step_counter  Non-wakeup",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.step_count.cumulative",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "9d2943f4",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G965W",
+        "manufacturer": "samsung"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.weight:com.google.android.apps.fitness:user_input",
+      "dataStreamName": "user_input",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      },
+      "dataQualityStandard": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"dataStreamName": "AppleDistanceDataSource", "type": "derived", "application": {"name": "AppleHealth2GoogleFit", "version": "1"}, "dataType": {"field": [{"name": "distance", "format": "floatPoint"}], "name": "com.google.distance.delta"}, "device": {"manufacturer": "Apple", "model": "RESTAPI", "type": "tablet", "uid": "262", "version": "1"}}

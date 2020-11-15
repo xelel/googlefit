@@ -1,0 +1,1 @@
+{"dataStreamName": "CaloriesDataSource", "type": "derived", "application": {"name": "HeartPoints", "version": "1"}, "dataType": {"name": "com.google.heart_minutes"}, "device": {"manufacturer": "Esteira", "model": "RESTAPI", "type": "watch", "uid": "309", "version": "1"}}

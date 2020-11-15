@@ -1,0 +1,1 @@
+{"dataStreamName": "HeartHateDataSource", "type": "derived", "application": {"name": "AppleHealth2GoogleFit", "version": "1"}, "dataType": {"name": "com.google.heart_rate.bpm"}, "device": {"manufacturer": "Apple", "model": "RESTAPI", "type": "tablet", "uid": "254", "version": "1"}}

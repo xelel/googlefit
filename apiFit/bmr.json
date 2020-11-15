@@ -1,0 +1,1 @@
+{"dataStreamName": "BmrDataSource", "type": "derived", "application": {"name": "AppleHealth2GoogleFit", "version": "1"}, "dataType": {"name": "com.google.calories.bmr"}, "device": {"manufacturer": "Apple", "model": "RESTAPI", "type": "tablet", "uid": "770", "version": "1"}}

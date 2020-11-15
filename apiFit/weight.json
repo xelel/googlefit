@@ -1,0 +1,1 @@
+{"dataStreamName": "AppleWeightDataSource", "type": "derived", "application": {"name": "AppleHealth2GoogleFit", "version": "1"}, "dataType": {"field": [{"name": "weight", "format": "floatPoint"}], "name": "com.google.weight"}, "device": {"manufacturer": "Apple", "model": "RESTAPI", "type": "tablet", "uid": "138", "version": "1"}}

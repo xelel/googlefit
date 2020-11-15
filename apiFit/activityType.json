@@ -1,0 +1,1 @@
+{"dataStreamName": "ActivityDataSource", "type": "derived", "application": {"name": "GoogleFit", "version": "1"}, "dataType": {"name": "com.google.activity.segment"}, "device": {"manufacturer": "Apple", "model": "RESTAPI", "type": "tablet", "uid": "289", "version": "1"}}

@@ -1,0 +1,1 @@
+{"dataStreamName": "CaloriesDataSource", "type": "derived", "application": {"name": "caloriesCount", "version": "1"}, "dataType": {"name": "com.google.calories.expended"}, "device": {"manufacturer": "Esteira", "model": "RESTAPI", "type": "watch", "uid": "501", "version": "1"}}
