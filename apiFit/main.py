@@ -7,14 +7,16 @@ import json
 import requests
 from random import randint
 accessToken = ''
-# recebe uma data,converte pra nanosegundos, e uma representação para datapoints
+
 
 
 def create_dataPointns(horario):
+    # recebe uma data,converte pra nanosegundos, e uma representação para datapoints
     return int(time.mktime(horario.timetuple())) * 1000000000
 
 
 def deleteDataSource(SourceId):
+    #deleta algum data source com base no seu ID
     url = f"https://www.googleapis.com/fitness/v1/users/me/dataSources/+{SourceId}"
 
     headers = {'content-type': 'application/json',
@@ -25,6 +27,7 @@ def deleteDataSource(SourceId):
 
 
 def getDataSource():
+    #Captura algum dataSource que esteja escrito
     url = "https://www.googleapis.com/fitness/v1/users/me/dataSources"
     headers = {'content-type': 'application/json',
                'Authorization': f'Bearer {accessToken}'}
@@ -42,6 +45,7 @@ def getDataSource():
 
 
 def createDataSource(arquivo):
+    #Cria algum data Source 
     url = "https://www.googleapis.com/fitness/v1/users/me/dataSources"
 
     headers = {'content-type': 'application/json',
@@ -55,7 +59,7 @@ def createDataSource(arquivo):
 
     with open(f'{arquivo}', 'w') as file:
         file.write(dado)
-
+    #Escreve o dado escrito em JSON usando requests e o método post
     r = requests.post(url, headers=headers, data=dado)
 
     if r.status_code == 200:
@@ -76,7 +80,7 @@ def createDataSource(arquivo):
 
 
 def create_dataset(startime, endtime, dataSourceId, point):
-
+    #Cria um registro de atividade(dataset) para alguma atividade selecionada
     url = "https://www.googleapis.com/fitness/v1/users/me/dataSources/" + \
         dataSourceId+"/datasets/"+f"{str(startime)}-{str(endtime)}"
 
@@ -116,6 +120,7 @@ def adicionar_distanciaPercorrida(d, tempo_Atividade):
     The total distance over an interval can be calculated by adding together all the values during the interval. 
     The start time of each data point should represent the start of the interval in which the distance was covered. 
     The start time must be equal to or greater than the end time of the previous data point."""
+    #cria uma data source para o atributo distancia no google fit
     id = createDataSource('distance.json')
     inicio = create_dataPointns(
         datetime.now()+timedelta(seconds=-tempo_Atividade))
@@ -131,6 +136,7 @@ def adicionar_distanciaPercorrida(d, tempo_Atividade):
             }
         ]
     }
+    #envia o json para o dataSource escolhido.
     create_dataset(inicio, fim, point=point, dataSourceId=id)
 
 
